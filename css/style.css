@@ -1,0 +1,98 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+	font-size: 48px;
+}
+h2{
+	font-weight: 700;
+}
+body, p{
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.clearfix:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+header{
+	position: relative;
+	background: #d73d16 url(../img/bg-header.png) no-repeat center;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	overflow: auto;
+}
+h1{
+	padding: 25vh 0 20px;
+}
+.container{
+	width: 1238px;
+	margin: 0 auto;
+}
+.logo{
+	display: block;
+	float: left;
+	padding: 53px 0 0 3px;
+	font-size: 36px;
+	font-weight: italic;
+}
+.logo span{
+	font-weight: 700;
+}
+nav{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	margin: 69px 34px 0 0;
+}
+nav ul li:last-child{
+	padding-right: 0;
+}
+.sub-title{
+	padding: 8px;
+	color: #ea8237;
+}
+.buttons{
+	padding-top: 57px;
+}
+.buttons a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.button{
+	display: inline-block;
+	width: 205px;
+	height: 50px;
+	border-radius: 25px;
+	line-height: 50px;
+	background: #fff;
+	color: #d32721;
+	box-sizing: border-box;
+}
+.buttons .button:first-child{
+	margin-right: 20px;
+}
+.buttons .button:hover{
+	background: none;
+	color: #fff;
+	border: 1px solid #e98664;
+}
+.down{
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	opacity: 0.3;
+}
+.down p{
+	padding-top: 10px;
+	font-weight: 300;
+}
