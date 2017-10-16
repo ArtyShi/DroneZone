@@ -96,3 +96,54 @@ nav ul li:last-child{
 	padding-top: 10px;
 	font-weight: 300;
 }
+
+
+.icons{
+	background: #f6f6f6;
+	height: 600px;
+	text-align: center;
+}
+.icons .container{
+	padding-top: 116px;
+}
+.ico-item{
+	display: inline-block;
+	padding-right: 90px;
+	width: 17%;
+}
+.ico-line .ico-item:last-child{
+	padding-right: 0;
+}
+.ico-img{
+	height: 98px;
+	line-height: 98px;
+}
+.ico-img img{
+	vertical-align: middle;
+}
+.ico-item p{
+	padding: 10px 0;
+	font-size: 18px;
+	line-height: 30px;
+	color: #5e6372;
+}
+p.title{
+	padding: 16px 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #cb0035;
+	background: linear-gradient(to right, #cb0035, #e06900);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.icons .button{
+	margin: 94px 0 99px;
+	font-size: 18px;
+	color: #fff;
+	background: #29489a;
+}
+.icons a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
