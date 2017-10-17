@@ -4,11 +4,16 @@ body{
 h1, h2{
 	font-size: 48px;
 }
-h2{
+h2, p.title{
 	font-weight: 700;
+	color: #cb0035;
+	background: linear-gradient(to right, #cb0035, #e06900);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 body, p{
 	font-size: 18px;
+	color: #5e6372;
 }
 a{
 	text-decoration: none;
@@ -40,7 +45,8 @@ h1{
 	float: left;
 	padding: 53px 0 0 3px;
 	font-size: 36px;
-	font-weight: italic;
+	font-weight: 300;
+	color: #fff;
 }
 .logo span{
 	font-weight: 700;
@@ -123,18 +129,11 @@ nav ul li:last-child{
 }
 .ico-item p{
 	padding: 10px 0;
-	font-size: 18px;
 	line-height: 30px;
-	color: #5e6372;
 }
 p.title{
 	padding: 16px 0;
 	font-size: 30px;
-	font-weight: 700;
-	color: #cb0035;
-	background: linear-gradient(to right, #cb0035, #e06900);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 .icons .button{
 	margin: 94px 0 99px;
@@ -146,4 +145,48 @@ p.title{
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+.info{
+	background: #fff url(../img/Drone-bg.png) no-repeat right top;
+	padding-bottom: 115px;
+}
+.info-head{
+	margin-left: 5px;
+}
+.info-head, .info-content{
+	width: 73%;
+}
+.info-content{
+	counter-reset: point;
+}
+.info h2{
+	padding: 120px 0 30px;
+}
+.info p{
+	line-height: 36px;
+
+}
+p.points{
+	display: inline-block;
+	width: 44%;
+	padding: 60px 50px 0 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #c7cde0;
+}
+p.points:before{
+	content: counter(point);
+	counter-increment: point;
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 50px;
+	color: #3f4e76;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #c7cde0;
+	border-radius: 25px;
 }
