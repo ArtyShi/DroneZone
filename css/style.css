@@ -78,6 +78,7 @@ nav ul li:last-child{
 	width: 205px;
 	height: 50px;
 	border-radius: 25px;
+	text-align: center;
 	line-height: 50px;
 	background: #fff;
 	color: #d32721;
@@ -135,7 +136,7 @@ p.title{
 	padding: 16px 0;
 	font-size: 30px;
 }
-.icons .button{
+.icons .button, .portfolio .button{
 	margin: 94px 0 99px;
 	font-size: 18px;
 	color: #fff;
@@ -189,4 +190,63 @@ p.points:before{
 	height: 50px;
 	border: 2px solid #c7cde0;
 	border-radius: 25px;
+}
+
+
+.portfolio{
+	background: #f6f6f6;
+	width: 100vw;
+}
+.portfolio .button{
+	margin: 0;
+}
+.box{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	position: relative;
+}
+.box i{
+	position: absolute;
+	width: 14px;
+	height: 17px;
+	padding: 15px 15px 16px 19px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	box-shadow: 0 0 49px rgba(10, 22, 45, .4);
+}
+.bg1 a, .bg2 a{
+	width: 50px;
+	height: 50px;
+
+}
+.box p{
+	padding: 34px 0 62px;
+	line-height: 36px;
+}
+.bg1, .bg2{
+	height: 641px;
+}
+.bg1{
+	background: url(../img/foto1.png);
+}
+.bg2{
+	background: url(../img/foto2.png);
+}
+.box-content{
+	width: 560px;
+	padding-top: 180px;
+}
+.box .box-content:first-child{
+	padding-left: 75px;
+}
+.box .box-content:last-child{
+	padding-right: 75px;
+	float: right;
 }
